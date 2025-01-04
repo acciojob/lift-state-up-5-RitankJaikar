@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="parent">
       <h1>Parent Component</h1>
+      <p>{isLoggedIn ? "You are logged in!" : "Please Log In"}</p>
       <LoginForm isLoggedIn={isLoggedIn} onLogin={handleLogin} />
     </div>
   );
