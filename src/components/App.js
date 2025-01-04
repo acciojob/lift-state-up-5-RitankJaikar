@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="parent">
-      <h1>{isLoggedIn ? "Welcome, User!" : "Please Log In"}</h1>
+      <h1>Parent Component</h1>
       <LoginForm isLoggedIn={isLoggedIn} onLogin={handleLogin} />
     </div>
   );
